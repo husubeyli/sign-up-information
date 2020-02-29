@@ -27,6 +27,7 @@ $("#add-user").on("click", function(event) {
     }
 
     setStorage(infoJson)
+    renderDOM(infos)
   }
 
   function getItinialStorage(){    
